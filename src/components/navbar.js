@@ -30,17 +30,23 @@ const Navbar = () => {
 
 const FlexNav = styled.nav`
   display: flex;
-  direction: row;
+  flex-direction: row;
   padding-top: 2rem;
   justify-content: center;
-  color: white;
   align-items: center;
   flex-wrap: wrap;
+  @media only screen and (max-width: 970px) {
+    flex-direction: column;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  }
 `
 const List = styled.ul`
   list-style: none;
   display: flex;
   margin: 0;
+  @media only screen and (max-width: 970px) {
+    flex-direction: column;
+  }
 `
 
 const Item = styled.li`
@@ -51,11 +57,19 @@ const Item = styled.li`
     color: white;
     text-decoration: none;
   }
+  @media only screen and (max-width: 970px) {
+    margin: 0.5rem 0;
+    text-align: center;
+  }
 `
 const Logo = styled.div`
   margin: 0 4rem;
   img {
     margin: 0;
+  }
+  @media only screen and (max-width: 970px) {
+    margin: 0.5rem 0;
+    text-align: center;
   }
 `
 

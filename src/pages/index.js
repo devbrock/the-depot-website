@@ -43,27 +43,31 @@ const IndexPage = () => (
         <Paragraph>
           <FlexRow>
             <Day>Monday</Day>
-            <p>10:00AM - 10:00PM</p>
+            <p>10:00AM - 9:00PM</p>
           </FlexRow>
           <FlexRow>
             <Day>Tuesday</Day>
-            <p>10:00AM - 10:00PM</p>
+            <p>10:00AM - 9:00PM</p>
           </FlexRow>
           <FlexRow>
             <Day>Wednesday</Day>
-            <p>10:00AM - 10:00PM</p>
+            <p>10:00AM - 9:00PM</p>
           </FlexRow>
           <FlexRow>
             <Day>Thursday</Day>
-            <p>10:00AM - 10:00PM</p>
+            <p>10:00AM - 9:00PM</p>
           </FlexRow>
           <FlexRow>
             <Day>Friday</Day>
-            <p>10:00AM - 10:00PM</p>
+            <p>10:00AM - 9:00PM</p>
           </FlexRow>
           <FlexRow>
             <Day>Saturday</Day>
             <p>10:00AM - 10:00PM</p>
+          </FlexRow>
+          <FlexRow>
+            <Day>Sunday</Day>
+            <p>Closed</p>
           </FlexRow>
         </Paragraph>
       </div>
@@ -71,7 +75,9 @@ const IndexPage = () => (
         <Heading id="contact">Contact Us </Heading>
         <Paragraph style={{ textTransform: "capitalize" }}>
           if you need to reach us please send us an email at{" "}
-          <a href="mailto:test@email.com">email@address.com</a>
+          <a href="mailto:thedepotwineandspirits@gmail.com">
+            thedepotwineandspirits@gmail.com
+          </a>
         </Paragraph>
       </div>
     </Container>
@@ -86,7 +92,9 @@ const IndexPage = () => (
             <a href="tel:662-597-2647">662-597-2647</a>
           </li>
           <li>
-            <a href="mailto:email@site.com">email@address.com</a>
+            <a href="mailto:thedepotwineandspirits@gmail.com">
+              thedepotwineandspirits@gmail.com
+            </a>
           </li>
           <li>1112 Highway 278 E </li>
           <li>Suite B </li>
@@ -229,7 +237,6 @@ const FlexRow = styled.div`
   margin: 0 auto;
   display: flex;
   padding: 0 1rem;
-
   justify-content: space-between;
 `
 
@@ -240,11 +247,23 @@ const Footer = styled.footer`
   margin-top: 10rem;
   ul {
     list-style: none;
+    margin: 0 auto;
     li {
       a {
         color: white;
       }
     }
+    @media only screen and (max-width: 970px) {
+      margin: 2rem 0;
+    }
+  }
+  div {
+    @media only screen and (max-width: 970px) {
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 970px) {
+    padding: 2rem 0;
   }
 `
 
