@@ -12,6 +12,10 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Hero id="home">
       <Navbar />
+      <Tagline>
+        <h1>Amory's first liqour store.</h1>
+        <h2>Located next to Dollar General on Highway 278 East.</h2>
+      </Tagline>
     </Hero>
     <Container>
       <div>
@@ -36,7 +40,7 @@ const IndexPage = () => (
       </div>
       <div>
         <ReverseHeading id="hours">Hours</ReverseHeading>
-        <div>
+        <Paragraph>
           <FlexRow>
             <Day>Monday</Day>
             <p>10:00AM - 10:00PM</p>
@@ -61,7 +65,7 @@ const IndexPage = () => (
             <Day>Saturday</Day>
             <p>10:00AM - 10:00PM</p>
           </FlexRow>
-        </div>
+        </Paragraph>
       </div>
       <div>
         <Heading id="contact">Contact Us </Heading>
@@ -78,9 +82,14 @@ const IndexPage = () => (
           <img src={trainLogo} />
         </Logo>
         <ul>
-          <li>662-000-0000</li>
-          <li>email@address.com</li>
-          <li>0000 Suite C Highway 278 W</li>
+          <li>
+            <a href="tel:662-597-2647">662-597-2647</a>
+          </li>
+          <li>
+            <a href="mailto:email@site.com">email@address.com</a>
+          </li>
+          <li>1112 Highway 278 E </li>
+          <li>Suite B </li>
           <li>Amory, MS</li>
           <li>38821</li>
         </ul>
@@ -118,6 +127,7 @@ const Heading = styled.h2`
   align-content: center;
   white-space: nowrap;
   margin-bottom: 2.25rem;
+  padding: 0 1rem;
   &:after {
     content: "";
     display: block;
@@ -138,6 +148,7 @@ const ReverseHeading = styled.h2`
   align-items: center;
   align-content: center;
   white-space: nowrap;
+  padding: 0 1rem;
   margin-bottom: 2.25rem;
   &:before {
     content: "";
@@ -152,6 +163,8 @@ const ReverseHeading = styled.h2`
 const Hero = styled.div`
   margin-bottom: 4.5rem;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   /* background-image: url("https://images.unsplash.com/photo-1562601579-599dec564e06?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   background-color: black; */
   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 59.9%),
@@ -168,6 +181,7 @@ const Container = styled.div`
 `
 const FlexContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   max-width: 960px;
@@ -182,12 +196,30 @@ const FlexContainer = styled.div`
 
 const Paragraph = styled.p`
   text-align: center;
+  padding: 0 1rem;
   line-height: 1.5rem;
   a {
     color: #b8a586;
     font-weight: bold;
   }
 `
+const Tagline = styled.div`
+  color: white;
+  max-width: 960px;
+  margin: auto;
+  padding: 0 1rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+  text-transform: uppercase;
+  h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+`
+
 const Day = styled.p`
   font-size: 1.125rem;
 `
@@ -196,6 +228,8 @@ const FlexRow = styled.div`
   max-width: 350px;
   margin: 0 auto;
   display: flex;
+  padding: 0 1rem;
+
   justify-content: space-between;
 `
 
@@ -206,6 +240,11 @@ const Footer = styled.footer`
   margin-top: 10rem;
   ul {
     list-style: none;
+    li {
+      a {
+        color: white;
+      }
+    }
   }
 `
 

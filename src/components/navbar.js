@@ -35,6 +35,7 @@ const FlexNav = styled.nav`
   justify-content: center;
   color: white;
   align-items: center;
+  flex-wrap: wrap;
 `
 const List = styled.ul`
   list-style: none;
