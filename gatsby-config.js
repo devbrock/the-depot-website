@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `The Depot: Wine and Spirits`,
+    title: `The Depot Wine and Spirits Amory,MS`,
     description: `Amory Mississippi's first wine and liqour store. Located on Highway 278 in Amory, Mississippi 38821`,
-    author: `@gatsbyjs`,
+    author: `Brock Balducci`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
