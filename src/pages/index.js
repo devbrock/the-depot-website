@@ -76,7 +76,7 @@ const IndexPage = () => (
       <div>
         <Heading id="contact">Contact Us </Heading>
         <Paragraph>
-          if you need to reach us please call the store at{" "}
+          If you need to reach us, please call the store at{" "}
           <a href="tel:662-597-2647">662-597-2647</a>, send us an email at{" "}
           <a href="mailto:thedepotwineandspirits@gmail.com">
             thedepotwineandspirits@gmail.com
@@ -87,9 +87,9 @@ const IndexPage = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            send us a message
+            send a message
           </a>{" "}
-          on{" "}
+          to our{" "}
           <a
             href="https://www.facebook.com/thedepotamory/"
             target="_blank"
@@ -97,6 +97,7 @@ const IndexPage = () => (
           >
             Facebook
           </a>
+          .
         </Paragraph>
       </div>
     </Container>
