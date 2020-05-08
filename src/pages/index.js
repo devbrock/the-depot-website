@@ -8,142 +8,6 @@ import styled from "styled-components"
 import trainLogo from "../images/trainLogo.svg"
 import CustomGallery from "../components/gallery"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <Hero id="home">
-      <Navbar />
-      <Tagline>
-        <h1>Amory's first liqour store.</h1>
-        <h2>Located next to Dollar General on Highway 278 East.</h2>
-      </Tagline>
-    </Hero>
-    <Container>
-      <div>
-        <Heading id="about">About </Heading>
-        <Paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus
-          tristique sit viverra pharetra urna non morbi. Semper blandit quisque
-          id amet. Sed nullam a cum maecenas amet lectus id sed. Id eget sit
-          semper nunc mauris, rhoncus, sed. Leo, est sed amet elementum in. Quam
-          bibendum fermentum lorem suspendisse risus viverra consectetur.
-          Convallis risus cursus hendrerit vitae, mi, volutpat mattis quisque.
-          Dolor fermentum sed neque imperdiet tortor, in quisque. Ac scelerisque
-          tristique vel volutpat. Id pellentesque adipiscing faucibus ipsum
-          ipsum. Sagittis proin nulla arcu phasellus at suspendisse enim leo ac.
-          Odio tellus lacus amet ullamcorper massa id. Est lobortis quam
-          consectetur purus, arcu odio venenatis. Non viverra arcu malesuada
-          fermentum cras. Donec pretium euismod pulvinar consectetur tortor.
-          Viverra leo accumsan, ut parturient in amet libero. Nunc id eget
-          sodales venenatis aenean faucibus urna, id. Est adipiscing semper
-          sagittis ultricies mauris.
-        </Paragraph>
-        <CustomGallery />
-      </div>
-      <div>
-        <ReverseHeading id="hours">Hours</ReverseHeading>
-        <Paragraph>
-          <FlexRow>
-            <Day>Monday</Day>
-            <p>10:00AM - 9:00PM</p>
-          </FlexRow>
-          <FlexRow>
-            <Day>Tuesday</Day>
-            <p>10:00AM - 9:00PM</p>
-          </FlexRow>
-          <FlexRow>
-            <Day>Wednesday</Day>
-            <p>10:00AM - 9:00PM</p>
-          </FlexRow>
-          <FlexRow>
-            <Day>Thursday</Day>
-            <p>10:00AM - 9:00PM</p>
-          </FlexRow>
-          <FlexRow>
-            <Day>Friday</Day>
-            <p>10:00AM - 9:00PM</p>
-          </FlexRow>
-          <FlexRow>
-            <Day>Saturday</Day>
-            <p>10:00AM - 10:00PM</p>
-          </FlexRow>
-          <FlexRow>
-            <Day>Sunday</Day>
-            <p>Closed</p>
-          </FlexRow>
-        </Paragraph>
-      </div>
-      <div>
-        <Heading id="contact">Contact Us </Heading>
-        <Paragraph>
-          If you need to reach us, please call the store at{" "}
-          <a href="tel:662-597-2647">662-597-2647</a>, send us an email at{" "}
-          <a href="mailto:thedepotwineandspirits@gmail.com">
-            thedepotwineandspirits@gmail.com
-          </a>{" "}
-          or{" "}
-          <a
-            href="https://m.me/thedepotamory?fbclid=IwAR3uKvFW354pFjdsxEo_0wOI8CA8DrvnY58C1n3y5w6IhzDDBpz7l1HZBcs"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            send a message
-          </a>{" "}
-          to our{" "}
-          <a
-            href="https://www.facebook.com/thedepotamory/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Facebook
-          </a>
-          .
-        </Paragraph>
-      </div>
-    </Container>
-    {/* <Image /> */}
-    <Footer>
-      <FlexContainer>
-        <Logo>
-          <img src={trainLogo} />
-        </Logo>
-        <ul>
-          <li>
-            <a href="tel:662-597-2647">662-597-2647</a>
-          </li>
-          <li>
-            <a href="mailto:thedepotwineandspirits@gmail.com">
-              thedepotwineandspirits@gmail.com
-            </a>
-          </li>
-          <li>1112 Highway 278 E </li>
-          <li>Suite B </li>
-          <li>Amory, MS</li>
-          <li>38821</li>
-        </ul>
-        <div>
-          <div
-          // style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;"
-          >
-            <div
-              id="display-googlemap"
-              style={{ height: "100%", width: "100%", maxWidth: "100%" }}
-              // style="height:100%; width:100%;max-width:100%;"
-            >
-              <iframe
-                // style="height:100%;width:100%;border:0;"
-                style={{ height: "100%", width: "100%", border: "0" }}
-                frameBorder="0"
-                src="https://www.google.com/maps/embed/v1/place?q=Amory,+MS&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </FlexContainer>
-    </Footer>
-  </Layout>
-)
-
 const Heading = styled.h2`
   font-weight: bold;
   font-family: "Roboto Slab", serif;
@@ -293,5 +157,141 @@ const Logo = styled.div`
     margin: 0;
   }
 `
+
+const IndexPage = () => (
+  <Layout>
+    <SEO title="Home" />
+    <Hero id="home">
+      <Navbar />
+      <Tagline>
+        <h1>Amory's first liqour store.</h1>
+        <h2>Located next to Dollar General on Highway 278 East.</h2>
+      </Tagline>
+    </Hero>
+    <Container>
+      <div>
+        <Heading id="about">About </Heading>
+        <Paragraph>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus
+          tristique sit viverra pharetra urna non morbi. Semper blandit quisque
+          id amet. Sed nullam a cum maecenas amet lectus id sed. Id eget sit
+          semper nunc mauris, rhoncus, sed. Leo, est sed amet elementum in. Quam
+          bibendum fermentum lorem suspendisse risus viverra consectetur.
+          Convallis risus cursus hendrerit vitae, mi, volutpat mattis quisque.
+          Dolor fermentum sed neque imperdiet tortor, in quisque. Ac scelerisque
+          tristique vel volutpat. Id pellentesque adipiscing faucibus ipsum
+          ipsum. Sagittis proin nulla arcu phasellus at suspendisse enim leo ac.
+          Odio tellus lacus amet ullamcorper massa id. Est lobortis quam
+          consectetur purus, arcu odio venenatis. Non viverra arcu malesuada
+          fermentum cras. Donec pretium euismod pulvinar consectetur tortor.
+          Viverra leo accumsan, ut parturient in amet libero. Nunc id eget
+          sodales venenatis aenean faucibus urna, id. Est adipiscing semper
+          sagittis ultricies mauris.
+        </Paragraph>
+        <CustomGallery />
+      </div>
+      <div>
+        <ReverseHeading id="hours">Hours</ReverseHeading>
+        <Paragraph>
+          <FlexRow>
+            <Day>Monday</Day>
+            <p>10:00AM - 9:00PM</p>
+          </FlexRow>
+          <FlexRow>
+            <Day>Tuesday</Day>
+            <p>10:00AM - 9:00PM</p>
+          </FlexRow>
+          <FlexRow>
+            <Day>Wednesday</Day>
+            <p>10:00AM - 9:00PM</p>
+          </FlexRow>
+          <FlexRow>
+            <Day>Thursday</Day>
+            <p>10:00AM - 9:00PM</p>
+          </FlexRow>
+          <FlexRow>
+            <Day>Friday</Day>
+            <p>10:00AM - 9:00PM</p>
+          </FlexRow>
+          <FlexRow>
+            <Day>Saturday</Day>
+            <p>10:00AM - 10:00PM</p>
+          </FlexRow>
+          <FlexRow>
+            <Day>Sunday</Day>
+            <p>Closed</p>
+          </FlexRow>
+        </Paragraph>
+      </div>
+      <div>
+        <Heading id="contact">Contact Us </Heading>
+        <Paragraph>
+          If you need to reach us, please call the store at{" "}
+          <a href="tel:662-597-2647">662-597-2647</a>, send us an email at{" "}
+          <a href="mailto:thedepotwineandspirits@gmail.com">
+            thedepotwineandspirits@gmail.com
+          </a>{" "}
+          or{" "}
+          <a
+            href="https://m.me/thedepotamory?fbclid=IwAR3uKvFW354pFjdsxEo_0wOI8CA8DrvnY58C1n3y5w6IhzDDBpz7l1HZBcs"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            send a message
+          </a>{" "}
+          to our{" "}
+          <a
+            href="https://www.facebook.com/thedepotamory/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Facebook
+          </a>
+          .
+        </Paragraph>
+      </div>
+    </Container>
+    {/* <Image /> */}
+    <Footer>
+      <FlexContainer>
+        <Logo>
+          <img src={trainLogo} />
+        </Logo>
+        <ul>
+          <li>
+            <a href="tel:662-597-2647">662-597-2647</a>
+          </li>
+          <li>
+            <a href="mailto:thedepotwineandspirits@gmail.com">
+              thedepotwineandspirits@gmail.com
+            </a>
+          </li>
+          <li>1112 Highway 278 E </li>
+          <li>Suite B </li>
+          <li>Amory, MS</li>
+          <li>38821</li>
+        </ul>
+        <div>
+          <div
+          // style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;"
+          >
+            <div
+              id="display-googlemap"
+              style={{ height: "100%", width: "100%", maxWidth: "100%" }}
+              // style="height:100%; width:100%;max-width:100%;"
+            >
+              <iframe
+                // style="height:100%;width:100%;border:0;"
+                style={{ height: "100%", width: "100%", border: "0" }}
+                frameBorder="0"
+                src="https://www.google.com/maps/embed/v1/place?q=Amory,+MS&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </FlexContainer>
+    </Footer>
+  </Layout>
+)
 
 export default IndexPage
