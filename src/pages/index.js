@@ -6,6 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import styled from "styled-components"
 import trainLogo from "../images/trainLogo.svg"
+import CustomGallery from "../components/gallery"
 
 const IndexPage = () => (
   <Layout>
@@ -37,6 +38,7 @@ const IndexPage = () => (
           sodales venenatis aenean faucibus urna, id. Est adipiscing semper
           sagittis ultricies mauris.
         </Paragraph>
+        <CustomGallery />
       </div>
       <div>
         <ReverseHeading id="hours">Hours</ReverseHeading>
@@ -73,10 +75,27 @@ const IndexPage = () => (
       </div>
       <div>
         <Heading id="contact">Contact Us </Heading>
-        <Paragraph style={{ textTransform: "capitalize" }}>
-          if you need to reach us please send us an email at{" "}
+        <Paragraph>
+          if you need to reach us please call the store at{" "}
+          <a href="tel:662-597-2647">662-597-2647</a>, send us an email at{" "}
           <a href="mailto:thedepotwineandspirits@gmail.com">
             thedepotwineandspirits@gmail.com
+          </a>{" "}
+          or{" "}
+          <a
+            href="https://m.me/thedepotamory?fbclid=IwAR3uKvFW354pFjdsxEo_0wOI8CA8DrvnY58C1n3y5w6IhzDDBpz7l1HZBcs"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            send us a message
+          </a>{" "}
+          on{" "}
+          <a
+            href="https://www.facebook.com/thedepotamory/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Facebook
           </a>
         </Paragraph>
       </div>
