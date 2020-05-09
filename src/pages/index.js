@@ -42,6 +42,7 @@ const ReverseHeading = styled.h2`
   white-space: nowrap;
   padding: 0 1rem;
   margin-bottom: 2.25rem;
+  margin-top: 4rem;
   &:before {
     content: "";
     display: block;
@@ -211,7 +212,7 @@ const IndexPage = () => (
           </FlexRow>
           <FlexRow>
             <Day>Friday</Day>
-            <p>10:00AM - 9:00PM</p>
+            <p>10:00AM - 10:00PM</p>
           </FlexRow>
           <FlexRow>
             <Day>Saturday</Day>
@@ -266,7 +267,7 @@ const IndexPage = () => (
               thedepotwineandspirits@gmail.com
             </a>
           </li>
-          <li>1112 Highway 278 E </li>
+          <li>1112 6th Avenue South </li>
           <li>Suite B </li>
           <li>Amory, MS</li>
           <li>38821</li>
