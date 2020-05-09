@@ -165,13 +165,13 @@ const IndexPage = () => (
     <Hero id="home">
       <Navbar />
       <Tagline>
-        <h1>Amory's first liquor store.</h1>
+        <h1>Amory's oldest liquor store.</h1>
         <h2>Located next to Dollar General on Highway 278 East.</h2>
       </Tagline>
     </Hero>
     <Container>
       <div>
-        <Heading id="about">About </Heading>
+        <Heading id="about">About</Heading>
         <Paragraph>
           The Depot Wine and Spirits is conveniently located on Highway 278 East
           next to Dollar General in Amory, Mississippi. We strive to be Amory's{" "}
