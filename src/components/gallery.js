@@ -14,21 +14,15 @@ const photos = [
   },
   {
     src:
-      "https://images.unsplash.com/photo-1575136087248-7f2ea5f2fe36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80",
-    width: 1,
-    height: 2,
+      "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/96001885_135786351370443_4481733837197410304_n.jpg?_nc_cat=111&_nc_sid=8bfeb9&_nc_oc=AQmRlxcwqXhcpCBujsTys1XgrHmPqz2b8drdClO6QNyktCNXI9D3u8A7jvk8hhaATDM&_nc_ht=scontent-lax3-2.xx&oh=fa88b83199af736fced2280070560083&oe=5EDE58AD",
+    width: 2,
+    height: 3,
     alt: "alt text test",
   },
   {
     src:
-      "https://images.unsplash.com/photo-1516535794938-6063878f08cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80",
-    width: 1,
-    height: 2,
-  },
-  {
-    src:
-      "https://images.unsplash.com/photo-1517656398108-a3cc9ab0c2a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIxMTIzfQ&auto=format&fit=crop&w=1234&q=80",
-    width: 1,
+      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/93089111_129078928707852_8437154260159823872_n.jpg?_nc_cat=101&_nc_sid=8bfeb9&_nc_oc=AQlzd_mnSDYOoOzVhPvRwcwI1YamDlyNOP8o7XHrzsNEo31P1TsQQHeI3R7oMxO0HAw&_nc_ht=scontent-lax3-1.xx&oh=ced2dd6b2df92204c82f901ff3f098c7&oe=5EDE01ED",
+    width: 2,
     height: 2,
   },
 ]

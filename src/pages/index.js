@@ -173,21 +173,12 @@ const IndexPage = () => (
       <div>
         <Heading id="about">About </Heading>
         <Paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus
-          tristique sit viverra pharetra urna non morbi. Semper blandit quisque
-          id amet. Sed nullam a cum maecenas amet lectus id sed. Id eget sit
-          semper nunc mauris, rhoncus, sed. Leo, est sed amet elementum in. Quam
-          bibendum fermentum lorem suspendisse risus viverra consectetur.
-          Convallis risus cursus hendrerit vitae, mi, volutpat mattis quisque.
-          Dolor fermentum sed neque imperdiet tortor, in quisque. Ac scelerisque
-          tristique vel volutpat. Id pellentesque adipiscing faucibus ipsum
-          ipsum. Sagittis proin nulla arcu phasellus at suspendisse enim leo ac.
-          Odio tellus lacus amet ullamcorper massa id. Est lobortis quam
-          consectetur purus, arcu odio venenatis. Non viverra arcu malesuada
-          fermentum cras. Donec pretium euismod pulvinar consectetur tortor.
-          Viverra leo accumsan, ut parturient in amet libero. Nunc id eget
-          sodales venenatis aenean faucibus urna, id. Est adipiscing semper
-          sagittis ultricies mauris.
+          The Depot Wine and Spirits is conveniently located on Highway 278 East
+          next to Dollar General in Amory, Mississippi. We strive to be Amory's{" "}
+          <strong>premier wine and spirits retailer</strong>. We opened on April
+          15 as Amory’s first liquor store . We are adding inventory daily and
+          strive to offer all of your favorites. We take suggestions and offer
+          case discounts on request.
         </Paragraph>
         <CustomGallery />
       </div>
@@ -273,19 +264,15 @@ const IndexPage = () => (
           <li>38821</li>
         </ul>
         <div>
-          <div
-          // style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;"
-          >
+          <div>
             <div
               id="display-googlemap"
               style={{ height: "100%", width: "100%", maxWidth: "100%" }}
-              // style="height:100%; width:100%;max-width:100%;"
             >
               <iframe
-                // style="height:100%;width:100%;border:0;"
                 style={{ height: "100%", width: "100%", border: "0" }}
                 frameBorder="0"
-                src="https://www.google.com/maps/embed/v1/place?q=Amory,+MS&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                src="https://maps.google.com/maps?q=1112%206th%20Avenue%20South%20Amory%2C%20MS&t=&z=17&ie=UTF8&iwloc=&output=embed"
               ></iframe>
             </div>
           </div>
