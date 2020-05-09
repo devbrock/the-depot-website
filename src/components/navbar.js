@@ -46,6 +46,7 @@ const List = styled.ul`
   margin: 0;
   @media only screen and (max-width: 970px) {
     flex-direction: column;
+    order: 2;
   }
 `
 
