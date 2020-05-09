@@ -178,7 +178,9 @@ const IndexPage = () => (
           <strong>premier wine and spirits retailer</strong>. We opened on April
           15 as Amory’s first liquor store . We are adding inventory daily and
           strive to offer all of your favorites. We take suggestions and offer
-          case discounts on request.
+          case discounts on request. If you would like curbside pick up, please
+          call ahead <a href="tel:662-597-2647">(662-597-2647)</a> and place an
+          order.
         </Paragraph>
         <CustomGallery />
       </div>
