@@ -2,7 +2,6 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Navbar from "../components/navbar"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import styled from "styled-components"
 import trainLogo from "../images/trainLogo.svg"
@@ -249,7 +248,7 @@ const IndexPage = () => (
     <Footer>
       <FlexContainer>
         <Logo>
-          <img src={trainLogo} />
+          <img src={trainLogo} alt="train logo"/>
         </Logo>
         <ul>
           <li>
@@ -271,7 +270,7 @@ const IndexPage = () => (
               id="display-googlemap"
               style={{ height: "100%", width: "100%", maxWidth: "100%" }}
             >
-              <iframe
+              <iframe title="google map"
                 style={{ height: "100%", width: "100%", border: "0" }}
                 frameBorder="0"
                 src="https://maps.google.com/maps?q=1112%206th%20Avenue%20South%20Amory%2C%20MS&t=&z=17&ie=UTF8&iwloc=&output=embed"

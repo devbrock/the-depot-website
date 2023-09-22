@@ -14,7 +14,7 @@ const Navbar = () => {
         </Item>
       </List>
       <Logo>
-        <img src={logo} />
+        <img src={logo} alt="the depot logo"/>
       </Logo>
       <List>
         <Item>
